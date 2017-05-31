@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Enter Solution</title>
+  <title>Present For Lea</title>
   
   
   
@@ -11,23 +11,39 @@
 function validateForm() {
     var x = document.forms["form"]["message"].value;
     if (x == "") {
-        alert("Name must be filled out");
+        alert("fill out");
         return false;
     }
+	if (x != "42"&& x != "10"){
+	alert("Nugget");
+	}
+	if (x == "42"){
+	alert("Nugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget\nNugget");
+	}
+	
+	if (x == "10"){
+		alert("Ludovico Einaudi Konzert\n\n11. Juni 19:00\n\nErfolgreich Gebucht")
+	}
+		
 }
 </script>
   
 </head>
 
-<body>
+<body
+
+<div id="form_div">
   		<header>Enter Solution</header>
+		
 
 <form id="form" class="topBefore">
 		
-		  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+		  <textarea id="message" type="text" placeholder="Solution"></textarea>
   <input id="submit" type="submit" value="Submit!" onclick="validateForm()">
   
 </form>
+
+</div>
   
     <!-- <script src="js/index.js"></script> -->
 
